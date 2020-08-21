@@ -1,5 +1,5 @@
 # Ranking players using a bayesian model on match history data
-The model used is a variation of the TrueSkill that was taught in STA414 (Statistical Methods for Machine Learning II) at the University of Toronto.
+The model uses a variation of the TrueSkill system that was taught in STA414 (Statistical Methods for Machine Learning II) at the University of Toronto.
 
 It is implemented from scratch and uses stochastic variational inference to estimate the posterior distribution. StarCraft II matches are used as the data is, comparatively, simple. There are two players in any match, with one winner and one loser. The lack of ties and larger team sizes makes the implementation slightly easier. TrueSkill was developed for use in multiplayer competetive games, with multiple players per team, possible draws, or in some cases, more than one teams.
 
